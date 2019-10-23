@@ -848,7 +848,7 @@ hr{
 .hover-title h2{
 	position: absolute;
 	width:100%;
-	bottom:50%;
+	/* bottom:50%; */
 	margin:0 0 10px;
 	font-size: 21px;
 	line-height:21px;
