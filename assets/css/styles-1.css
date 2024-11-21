@@ -179,8 +179,8 @@ hr {
 .btn-dc:after {
 	position: absolute;
 	margin-left: 10px;
-	content: '\f061';
-	font-family: fontAwesome;
+	content: '\F138';
+	font-family: 'bootstrap-icons';
 	opacity: 0;
 	-webkit-transition: all 0.2s ease-out 0s;
 	transition: all 0.2s ease-out 0s;
@@ -319,7 +319,7 @@ hr {
 	color: #00cccb !important;
 	background: none;
 }
-#site-nav a .fa {
+#site-nav a .bi {
 	display: block;
 	margin-bottom: 5px;
 	font-size: 21px;
@@ -339,7 +339,8 @@ hr {
 	height: 100%;
 	min-height: 860px;
 	margin-bottom: -64px;
-	/*background: url('../images/header-bg.png') no-repeat;*/
+	background: url('../images/backgroundTree.jpg') no-repeat;
+	background-position: top center;
 	background-attachment: fixed;
 	background-size: 100%;
 	background-size: cover;
@@ -1298,12 +1299,12 @@ hr {
 	font-size: 28px;
 }
 
-#contact .social-links .fa {
+#contact .social-links .bi {
 	-webkit-transition: color 0.15s ease-out;
 	transition: color 0.15s ease-out;
 }
 
-#contact .social-links a:hover .fa {
+#contact .social-links a:hover .bi {
 	color: #00cccb !important;
 }
 
