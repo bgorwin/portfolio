@@ -360,7 +360,7 @@ hr {
 	position: absolute;
 	width: 100%;
 	left: 0;
-	top: 15%;
+	top: 25%;
 }
 
 #home h1 {
@@ -789,7 +789,7 @@ hr {
 }
 
 #projects-container {
-	margin: 0 0 80px;
+	margin: 0 auto;
 	background: #fff;
 	-webkit-transition: none;
 	transition: none;
@@ -824,9 +824,10 @@ hr {
 	-webkit-transition: all 0.4s ease-out;
 	transition: all 0.4s ease-out;
 	width: 300px;
-	height: 300px;
-	margin-bottom: 20px;
-	margin-left: 12px;
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+    margin: 0 auto 15px;
 }
 
 #projects-container .project-item:hover .project-image {
@@ -1245,6 +1246,11 @@ hr {
 	background: url(../images/map.jpg) center center no-repeat;
 }
 
+.contact-list {
+	list-style: none;
+	padding-left: 0; 
+}
+
 .color-overlay:before {
 	position: absolute;
 	display: block;
@@ -1261,10 +1267,6 @@ hr {
 #contact .container {
 	position: relative;
 	z-index: 2;
-}
-
-#contact .row {
-	margin-top: 100px;
 }
 
 #contact p {
