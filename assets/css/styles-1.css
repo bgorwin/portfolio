@@ -843,15 +843,26 @@ hr {
     padding: 15px;
     background-color: #f5f5f5;
     border-radius: 10px;
-	transition: background-color 0.4s ease-in-out;
+	transition: box-shadow 0.4s ease-in-out;
+	
 }
 
 #projects-container .project-card:hover {
-	background-color: #1A1A1A;
+	-webkit-box-shadow: 0px 12px 10px -7px rgba(145,145,145,1);
+	-moz-box-shadow: 0px 12px 10px -7px rgba(145,145,145,1);
+	box-shadow: 0px 12px 10px -7px rgba(145,145,145,1);
+	color: #000000;
+}
+
+#projects-container .project-card h3 {
+	color: #39444c;
+	font-weight: semi-bold;
+	transition: color 0.4s ease-in-out;
 }
 
 #projects-container .project-card:hover h3 {
 	color: #00cccb;
+	font-weight: semi-bold;
 }
 
 #projects-container .project-card img {
